@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+}
+
+.row {
+    height: 30px;
+}
+
+.cell {
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.cell--miss {
+    background: blue;
+}
+
+.cell--hit {
+    background: red;
+}
+
+.cell--dead {
+    background: black;
+}
